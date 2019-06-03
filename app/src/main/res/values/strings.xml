@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">RestrauntSearch</string>
+    <string name="featured_image">Featured Image</string>
+    <string name="res">Restaurants</string>
+    <string name="bookmarks">BookMarks</string>
+    <string name="restaurants">Restaurants</string>
+    <string name="search">Search</string>
+</resources>

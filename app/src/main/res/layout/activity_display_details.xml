@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.displaydetails.DisplayDetailsActivity">
+
+    <ImageView
+        android:id="@+id/iv_detail"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/size_200"
+        android:adjustViewBounds="true"
+        android:scaleType="centerCrop" />
+
+    <TextView
+        android:id="@+id/tv_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/iv_detail"
+        android:layout_marginStart="@dimen/size_10"
+        android:layout_marginTop="@dimen/size_20"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/font_18" />
+
+    <TextView
+        android:id="@+id/tv_address"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_name"
+        android:layout_marginStart="@dimen/size_10"
+        android:layout_marginTop="@dimen/size_20"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/font_18" />
+
+    <TextView
+        android:id="@+id/tv_cuisines"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_address"
+        android:layout_marginStart="@dimen/size_10"
+
+        android:layout_marginTop="@dimen/size_20"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/font_18" />
+
+</RelativeLayout>
